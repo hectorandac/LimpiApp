@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/map_container"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MapsActivity" />
+        </FrameLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="show"
+                    android:src="@drawable/ic_menu"
+                    app:layout_anchorGravity="top|center" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Barrio" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="HORAS DE RECOGIDA"
+                    android:textColor="@android:color/black" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Lunes"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Martes"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Miercoles"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Jueves"
+                            android:textColor="@color/colorPrimaryDark" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Viernes"
+                            android:textColor="@color/colorPrimaryDark" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="6-9" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="11-13" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="15-17" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="8-10" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="1-2"
+                            android:textColor="@color/colorAccent" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="DEPÓSITO MAS CERCANO"
+                    android:textColor="@android:color/black" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:onClick="openGoogleMpas">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/google_maps_banner"
+                        android:scaleType="fitXY"/>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

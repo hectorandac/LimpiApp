@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LimpiApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_facturas">Facturas</string>
+    <string-array name="barrios_array">
+        <item>Matahambre</item>
+        <item>Enriquillo</item>
+        <item>Buenos Aires</item>
+        <item>Jose contreras</item>
+        <item>16 de agosto</item>
+        <item>Caciques</item>
+        <item>Honduras</item>
+        <item>Jardines del sur</item>
+        <item>Tropical</item>
+        <item>Miramar Este</item>
+        <item>Costa Caribe</item>
+        <item>30 de Mayo</item>
+        <item>El Portal</item>
+        <item>La Aurora</item>
+        <item>Dominicanos Ausentes</item>
+        <item>Miramar Oeste</item>
+        <item>Invi</item>
+        <item>La Paz</item>
+        <item>Sandra 1</item>
+        <item>San Juan</item>
+        <item>San Jose</item>
+    </string-array>
+</resources>

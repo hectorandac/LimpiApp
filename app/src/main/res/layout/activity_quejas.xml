@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quejas">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:lineSpacingExtra="8sp"
+                        android:text="Envianos tu punto de vista, y nosotros estaremos contactandote en un plazo de 1 a 2 dias para resolver tus demandas."
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        android:textSize="18sp"
+                        android:typeface="sans"
+                        app:fontFamily="sans-serif"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:layout_editor_absoluteX="110dp"
+                        tools:layout_editor_absoluteY="61dp" />
+
+                </android.support.v7.widget.CardView>
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nombre"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Telefono"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="169dp"
+                    android:ems="10"
+                    android:hint="Mensaje"
+                    android:inputType="textMultiLine" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:text="Enviar"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

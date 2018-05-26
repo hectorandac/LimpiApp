@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Facturas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        fab:srcCompat="@drawable/ejemplo_factura" />
+
+                    <LinearLayout
+                        android:id="@+id/titles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView"
+                        android:layout_toRightOf="@+id/imageView"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Numero de factura: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Fecha: "
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad: "
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/titles"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="FRF45131S4D" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="15/02/2018" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="3,400.00 $" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#DEDEDE"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_fab_label="Cancel"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="#00C29F"
+        fab:menu_colorPressed="#00C29F"
+        fab:menu_colorRipple="#00C29F"
+        android:padding="8dp">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_gallery"
+            fab:fab_size="mini"
+            fab:fab_label="Galeria"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAddProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_photo_camera"
+            fab:fab_size="mini"
+            fab:fab_label="Camara"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAddSubcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            fab:fab_size="mini"
+            fab:fab_label="Solo datos"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.constraint.ConstraintLayout>
