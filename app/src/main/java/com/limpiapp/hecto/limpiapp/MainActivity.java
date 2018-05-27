@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(this, Quejas.class);
         this.startActivity(myIntent);
     }
+
+    public void openReportes(View v){
+        Intent myIntent = new Intent(this, Reportes.class);
+        this.startActivity(myIntent);
+    }
 }

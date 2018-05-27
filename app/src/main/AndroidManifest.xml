@@ -43,7 +43,10 @@
             android:label="@string/title_activity_facturas" />
         <activity
             android:name=".Quejas"
-            android:label="Quejas" />
+            android:label="Consultas" />
+        <activity android:name=".Reportes"
+            android:label="Reportes"/>
+
     </application>
 
 </manifest>
