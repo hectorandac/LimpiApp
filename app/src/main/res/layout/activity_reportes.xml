@@ -20,7 +20,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Evalue el estado de su sector por su limpieza:"
+                android:text="Califique el estado de limpieza en su sector:"
                 android:textColor="@color/colorTextPrimary"
                 android:textSize="12pt" />
 
