@@ -44,9 +44,12 @@
         <activity
             android:name=".Quejas"
             android:label="Consultas" />
-        <activity android:name=".Reportes"
-            android:label="Reportes"/>
-
+        <activity
+            android:name=".Reportes"
+            android:label="Reportes" />
+        <activity
+            android:name=".Contenedores"
+            android:label="@string/title_activity_contenedores"></activity>
     </application>
 
 </manifest>

@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(this, Reportes.class);
         this.startActivity(myIntent);
     }
+
+    public void openContenedor(View v){
+        Intent myIntent = new Intent(this, Contenedores.class);
+        this.startActivity(myIntent);
+    }
 }

@@ -25,4 +25,5 @@
         <item>San Juan</item>
         <item>San Jose</item>
     </string-array>
+    <string name="title_activity_contenedores">Contenedores</string>
 </resources>
