@@ -316,7 +316,8 @@
                                 android:background="@color/colorAccent"
                                 android:padding="0dp"
                                 android:text="GO!"
-                                android:textColor="@android:color/white" />
+                                android:textColor="@android:color/white"
+                                android:onClick="openNovedades"/>
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -332,13 +333,21 @@
                     android:gravity="center"
                     android:padding="15dp">
 
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_info"
+                        android:onClick="showInfo"/>
+
                     <Switch
                         android:id="@+id/switch1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="#FFFFFF"
-                        android:text="Habilitar notificaciones" />
+                        android:layout_weight="10"
+                        android:text="Habilitar notificaciones"
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </RelativeLayout>
         </LinearLayout>

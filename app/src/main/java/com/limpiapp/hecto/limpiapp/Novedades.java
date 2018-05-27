@@ -4,14 +4,14 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Quejas extends AppCompatActivity {
+public class Novedades extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quejas);
+        setContentView(R.layout.activity_novedades);
         //ActionBar actionBar = getSupportActionBar();
         //actionBar.setDisplayShowHomeEnabled(true);
-        //actionBar.setIcon(R.drawable.ic_review);
+        //actionBar.setIcon(R.drawable.ic_newspaper);
     }
 }

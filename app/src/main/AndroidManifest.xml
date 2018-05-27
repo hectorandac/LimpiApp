@@ -49,7 +49,9 @@
             android:label="Reportes" />
         <activity
             android:name=".Contenedores"
-            android:label="@string/title_activity_contenedores"></activity>
+            android:label="@string/title_activity_contenedores" />
+        <activity android:name=".Novedades"
+            android:label="Novedades"/>
     </application>
 
 </manifest>
