@@ -7,9 +7,9 @@ The objective of this application is to create a platform that allows the citize
 
 ## Overview
 This project is created for the android platform.
-Minimum SDK version: 15
-Target SDK version: 27
-Code version 1
+- Minimum SDK version: 15
+- Target SDK version: 27
+- Code version 1
 
 ### Dependencies
 * gradle 3.1.2
