@@ -1,4 +1,4 @@
-# LimpiApp
+# LimpiApp ![alt text](https://github.com/hectorandac/LimpiApp/raw/master/app/src/main/res/mipmap-hdpi/ic_launcher.png "Limpiapp logo")
 The objective of this application is to create a platform that allows the citizens of a city to:
 * Know when the garbage truck is going to pass around their homes.
 * Calculate the needed collecting frequency of garbage in an area.
